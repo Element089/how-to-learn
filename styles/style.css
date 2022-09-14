@@ -152,6 +152,7 @@
   justify-content: space-between;
   list-style: none;
   min-height: 200px;
+  padding: 0;
 }
 
 .table__cell {
@@ -252,9 +253,6 @@
   margin-top: 80px;
 }
 
-.table-theme-dark {
-  padding: 0 auto 90px;
-}
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
