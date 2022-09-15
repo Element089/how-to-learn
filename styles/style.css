@@ -22,11 +22,15 @@
 }
 .logo_place_header {
   position: absolute;
-  width: 228px;
-  height: 32px;
   left: 64px;
   top: 30px;
 }
+
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
 .header__title {
   width: 730px;
   padding-left: 64px;
@@ -34,6 +38,7 @@
   font-size: 102px;
   font-weight: 600;
   z-index: 2;
+  margin: 0;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__subtitle {
@@ -45,6 +50,7 @@
   font-size: 18px;
   font-weight: normal;
   z-index: 2;
+  margin: 0;
 }
 .header__main-illustration {
   position: absolute;
@@ -66,6 +72,7 @@
 }
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 
@@ -110,6 +117,11 @@
   padding: 0 0 30px;
 }
 
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+
+}
+
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
@@ -124,7 +136,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
+  margin: 0 0 100px;
   
 }
 
@@ -135,7 +147,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  
+  margin: 0;
 }
 
 .section-subtitle {
@@ -144,7 +156,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin: auto;
+  margin: 0;
   margin-top: 20px;
 }
 
@@ -168,14 +180,14 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .table__text:last-of-type {
@@ -190,7 +202,7 @@
   background-color: #f2f2f2;
   align-items: center;
   flex-direction: column;
-  min-height: 900px;
+  min-height: 890px;
 }
 
 .feynman__title {
@@ -211,7 +223,7 @@
   font-weight: normal;
   margin-top: 70px;
   z-index: 1;
-
+  margin: 0;
 }
 
 .feynman__link {
@@ -222,6 +234,7 @@
   top: 50%;
   right: 48px;
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .feynman__picture {
@@ -240,7 +253,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0;
+  padding: 90px 0;
   background-color: #1f1f1f;
   color: #f2f2f2;
   position: relative;
@@ -266,14 +279,11 @@
   height: 877px;
   z-index: -1;
   top: 0;
+  background-size: cover;
 }
 
 .p {
-  display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
 }
 
 /* и концовочка*/
@@ -301,6 +311,7 @@
   font-size: 18px;
   font-weight: normal;
   padding: 18px 0;
+  margin: 0;
 
 }
 
@@ -320,6 +331,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+  margin: 0;
 }
 .footer__column-links {
   margin: 20px 0 16px 0;
